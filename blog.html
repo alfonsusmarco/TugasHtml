@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog - Project HTML Alfonsus Marco</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+  <title>Alfonsus's Blog</title>
+  <link rel="stylesheet" href="styleBlog.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Blog</h1>
-  </header>
-  <main>
-    <section id="blog-posts">
-      <h2>Artikel Terbaru</h2>
-      <article>
-        <h3>Tips Merawat Laptop</h3>
-        <p>Berikut beberapa tips untuk merawat laptop Anda agar awet dan tahan lama...</p>
-        <a href="https://www.bhinneka.com/blog/bhinneka-com-bagaimana-cara-merawat-laptop-yang-baik/">Baca Selengkapnya</a>
-      </article>
-      <article>
-        <h3>Manfaat Belajar Coding</h3>
-        <p>Di era digital ini, belajar coding menjadi salah satu skill yang...</p>
-        <a href="https://www.liputan6.com/hot/read/5307032/apa-itu-coding-pahami-pengertian-manfaat-dan-cara-mempelajari-bagi-pemula#:~:text=Manfaat%20Coding&text=Belajar%20coding%20akan%20membuat%20kamu,untuk%20berkembang%2C%20bukan%20sebagai%20halangan.">Baca Selengkapnya</a>
-      </article>
-      <article>
-        <h3>5 Destinasi Wisata Alam Terbaik di Indonesia</h3>
-        <p>Indonesia terkenal dengan keindahan alamnya yang luar biasa...</p>
-        <a href="https://adv.kontan.co.id/news/5-destinasi-wisata-indah-di-indonesia-yang-patut-dikunjungi">Baca Selengkapnya</a>
-      </article>
-    </section>
-  </main>
+  <section id="Blog">
+
+    <div class="blog__heading">
+      <span>My Recent Articles</span>
+      <h3>My Blog</h3>
+    </div>
+
+<div class="blog__container">
+  <div class="blog__box">
+    <div class="blog__img">
+      <img src="assets/images/tech.jpg" alt="blog">
+    </div>
+    <div class="blog__text">
+      <span>Technology</span>
+      <a href="https://www.bhinneka.com/blog/bhinneka-com-bagaimana-cara-merawat-laptop-yang-baik" class="blog__title">Tips Merawat Laptop</a>
+      <p>Berikut beberapa tips untuk merawat laptop Anda agar awet dan tahan lama...</p>
+      <a href="https://www.bhinneka.com/blog/bhinneka-com-bagaimana-cara-merawat-laptop-yang-baik">ReadMore...</a>
+    </div>
+
+  </div>
+  <div class="blog__box">
+    <div class="blog__img">
+      <img src="assets/images/prog.jpg" alt="blog">
+    </div>
+    <div class="blog__text">
+      <span>Programmer</span>
+      <a href="https://www.liputan6.com/hot/read/5307032/apa-itu-coding-pahami-pengertian-manfaat-dan-cara-mempelajari-bagi-pemula#:~:text=Manfaat%20Coding&text=Belajar%20coding%20akan%20membuat%20kamu,untuk%20berkembang%2C%20bukan%20sebagai%20halangan" class="blog__title">Manfaat Belajar Coding</a>
+      <p>Di era digital ini, belajar coding menjadi salah satu skill yang...</p>
+      <a href="https://www.liputan6.com/hot/read/5307032/apa-itu-coding-pahami-pengertian-manfaat-dan-cara-mempelajari-bagi-pemula#:~:text=Manfaat%20Coding&text=Belajar%20coding%20akan%20membuat%20kamu,untuk%20berkembang%2C%20bukan%20sebagai%20halangan">ReadMore...</a>
+    </div>
+
+  </div>
+  <div class="blog__box">
+    <div class="blog__img">
+      <img src="assets/images/vac.jpg" alt="blog">
+    </div>
+    <div class="blog__text">
+      <span>Vacation</span>
+      <a href="https://adv.kontan.co.id/news/5-destinasi-wisata-indah-di-indonesia-yang-patut-dikunjungi" class="blog__title">5 Destinasi Wisata Alam Terbaik di Indonesia</a>
+      <p>Indonesia terkenal dengan keindahan alamnya yang luar biasa..</p>
+      <a href="https://adv.kontan.co.id/news/5-destinasi-wisata-indah-di-indonesia-yang-patut-dikunjungi">ReadMore...</a>
+    </div>
+
+  </div>
+</div>
+
+
+  </section>
 </body>
 </html>

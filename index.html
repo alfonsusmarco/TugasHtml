@@ -1,35 +1,69 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project HTML Sederhana</title>
-  
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="Style1.css">
+  <title>Alfonsus's Portfolio</title>
 </head>
 <body>
+  <nav>
+    <div class="nav__logo"><a href="index.html">Ash<span>is</span>yours.</a></div>
+    <ul>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
   <header>
-    <h1>My Page</h1>
-    <a href="contact.html">kontak </a>
-    <a href="gallery.html">gallery</a>
-    <a href="blog.html">blog</a>
+    <div class="section__container header__container">
+      <p><span>Hallo!</span> It's a Me!</p>
+      <h1>Alfonsus Marco</h1>
+      <h2 class="section__title">Unity <span> Engineer.</span></h2>
+      <p>Enthusiastic and highly motivated undergraduate student at Sam Ratulangi University with a strong proficiency in Unity Engine,
+       a keen interest in coding and copywriting,
+       and exceptional time management skills. 
+       Eager to leverage technical expertise and creative talents to contribute effectively to the world of game development.</p>
+       <div class="action__btns">
+        <button class="btn"><a href="instagram.com/alfonsusmarco">Say Hi!</a></button>
+        <a href="#" class="video">
+          <div class="play">
+            <i class="ri-play-fill"></i>
+          </div>
+          <span>
+            Watch My Video
+          </span>
+        </a>     
+      </div>
+    </div>
+  
   </header>
-  <main>
-    <section id="about">
-      <h2>Tentang</h2>
-      <p>Website ini dibuat untuk [TUGAS] Project.01-HTML</p>
-      
-    </section>
-    <section id="services">
-      <h2>Layanan</h2>
-      <ul>
-        <li>Web Development</li>
-        <li>Graphic Design</li>
-        <li>Content Writing</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; Tugas HTML alfonsus marco masakke</p>
-  </footer>
+  <section class="about">
+    <div class="section__container about__container">
+      <div class="about__image">
+        <img src="assets/images/About.jpeg" alt="about">
+      </div>
+      <div class="about__content">
+        <h2 class="section__title">About <span>Me</span></h2>
+        <p class="section__subtitle">enthusiastic /inˌTHo͞ozēastik,enˌTHo͞ozēastik/ Unity Engineer.</p>
+        <p class="about__details">
+          Highly motivated Unity developer with a passion for crafting engaging and immersive experiences.
+          I thrive in collaborative environments and bring a positive, can-do attitude to every project. 
+          Adept at [mention specific Unity skills (e.g., C#, scripting, UI development)], 
+          I'm constantly seeking out new challenges and opportunities to push the boundaries of what's possible in Unity. 
+          Let's connect and chat about how I can help bring your next project to life!
+        </p>
+        <button class="btn">More About</button>
+      </div>
+    </div>
+  </section>
+
+
+  </div>
 </body>
 </html>
